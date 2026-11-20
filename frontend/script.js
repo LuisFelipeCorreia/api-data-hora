@@ -1,5 +1,5 @@
 // Depois do deploy no Render, substitua a URL abaixo pelo link do seu serviço no Render:
-const API_URL = 'http://localhost:3000/data-hora';
+const API_URL = 'https://api-data-hora.vercel.app';
 
 const elStatus = document.getElementById('status');
 const elHora = document.getElementById('hora');
