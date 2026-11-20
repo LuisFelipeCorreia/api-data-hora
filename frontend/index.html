@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta Data e Hora | API Express</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <span class="badge">Aula 04 • Consumo de API</span>
+    <h1>Relógio Oficial via API Express</h1>
+    <p class="descricao">
+      Esta página consome em tempo real o endpoint <code>/data-hora</code> hospedado no Render.
+    </p>
+
+    <section class="card" id="resultado">
+      <p class="status" id="status">Conectando à API...</p>
+      <div class="hora" id="hora">--:--:--</div>
+      <div class="data" id="data">Aguardando resposta do servidor</div>
+      <small class="iso" id="iso"></small>
+    </section>
+
+    <button id="btn-atualizar" type="button">🔄 Atualizar Data e Hora</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
